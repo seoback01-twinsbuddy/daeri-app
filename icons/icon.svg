@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="100" fill="#0A0E1A"/>
+  <rect x="40" y="40" width="432" height="432" rx="80" fill="#111827"/>
+  <!-- 차 바퀴 -->
+  <circle cx="170" cy="340" r="45" fill="#1C2333" stroke="#3B82F6" stroke-width="8"/>
+  <circle cx="170" cy="340" r="20" fill="#3B82F6"/>
+  <circle cx="342" cy="340" r="45" fill="#1C2333" stroke="#3B82F6" stroke-width="8"/>
+  <circle cx="342" cy="340" r="20" fill="#3B82F6"/>
+  <!-- 차 몸체 -->
+  <rect x="80" y="270" width="352" height="80" rx="20" fill="#1C2333" stroke="#2A3347" stroke-width="2"/>
+  <!-- 차 지붕 -->
+  <path d="M150 270 L180 190 L332 190 L362 270 Z" fill="#1C2333" stroke="#2A3347" stroke-width="2"/>
+  <!-- 유리 -->
+  <path d="M175 260 L198 200 L314 200 L337 260 Z" fill="#3B82F6" opacity="0.6"/>
+  <!-- 원 표시 (수익) -->
+  <circle cx="256" cy="120" r="52" fill="none" stroke="#10B981" stroke-width="8"/>
+  <text x="256" y="108" text-anchor="middle" font-family="Arial" font-weight="900" font-size="28" fill="#10B981">₩</text>
+  <text x="256" y="140" text-anchor="middle" font-family="Arial" font-weight="700" font-size="20" fill="#F1F5F9">기록</text>
+  <!-- 불빛 -->
+  <ellipse cx="100" cy="298" rx="18" ry="10" fill="#F59E0B" opacity="0.9"/>
+  <ellipse cx="412" cy="298" rx="18" ry="10" fill="#EF4444" opacity="0.7"/>
+</svg>
